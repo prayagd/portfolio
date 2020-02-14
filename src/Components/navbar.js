@@ -4,12 +4,13 @@ import {NavLink, Link, withRouter} from 'react-router-dom';
 const Navbar = () => {
     return (
         <header>
-            <div>
-                <nav>
+            <div className = "outside-container">
+                <nav id = "navbar">
+
                     <a href = "/">
-                        <span>Prayag Desale</span>
+                        <span className = "name-tag">Prayag Desale</span>
                     </a>
-                    <ul>
+                    <ul id = "navtags">
                         <li>
                             <Link to = "/">Home</Link>
                         </li>

@@ -15,6 +15,9 @@ function App() {
         <Route exact path = "/Projects" component = {Projects}/>
         <Route exact path = "/Contact" component = {Contact}/>
       </Switch>
+      <footer>
+        <p>Prayag Desale 2020</p>
+      </footer>
     </div>
     </BrowserRouter>
   );
