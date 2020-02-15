@@ -6,7 +6,6 @@ const Navbar = () => {
         <header>
             <div className = "outside-container">
                 <nav id = "navbar">
-
                     <a href = "/">
                         <span className = "name-tag">Prayag Desale</span>
                     </a>

@@ -3,7 +3,8 @@ body {
   font-family: libre baskerville,Georgia,serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border: 8px solid #494c4e 
+  border: 8px solid #494c4e;
+  padding: 0;
 }
 
 html{
@@ -19,9 +20,10 @@ a{
   color: #494c4e;
 }
 
+
 #navtags li{
   display: inline;
-  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #navbar{
@@ -32,15 +34,13 @@ a{
   align-items: center;
 }
 
+
 .nav-list:hover{
   border-bottom: 2px solid #3333ff;
 }
 
 .name-tag{
   border: 5px solid #494c4e;
-  width: 50px;
-  height: 50px;
-  overflow: visible;
   padding: 5px;
   font-size: 2rem;
 }
@@ -78,12 +78,17 @@ img{
 
 .intro{
   padding-top: 2em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
+}
+
+.resume:hover{
+  border-bottom: 1px solid #3333ff;
 }
 
 #intro{
   font-size: 2em;
   font-weight: normal;
+  text-align: center;
 }
 
 .project-card{
@@ -132,4 +137,38 @@ footer{
   color: #f6ac00;
   text-align: center;
   font-size: 1.3em;
+}
+
+.contact-tag{
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+.contact-tag li a:hover{
+  color: #3333ff;
+}
+
+.email{
+    border-radius: 5px;
+    border: 1px solid #3333ff;
+    padding: 1em 0.2em;
+    display: inline-block;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    min-width: 10em;
+    text-align: center;
+}
+
+.email:hover{
+  transform: scale(1.1);
+  transition: all .5s ease;
+}
+
+.contact-container{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
