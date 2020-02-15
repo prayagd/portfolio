@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className = "content">
             <section className = "inside-container intro">
-                <h1 id = "intro">Hey, I am Prayag. I am a self taught coder living in Pune, India</h1>
+                <h1 id = "intro">Hey, I am Prayag a self taught developer living in Pune, India</h1>
             </section>
             <section className = "outside-container space-down">
                 <img className = "picture" src = {Picture} alt = "this is how i look"/>            

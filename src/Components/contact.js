@@ -4,7 +4,9 @@ const Contact = () => {
     return (
         <div>
             <section>
-                <h1>You could find me here</h1>
+                <div className = "inside-container intro">
+                    <h1>You could find me here</h1>
+                </div>
             </section>
             <section>
                 <ul>
