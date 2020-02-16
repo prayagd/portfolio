@@ -140,8 +140,8 @@ img{
 footer{
   text-align: center;
   border-top: solid 2px #f0eeee;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
 
 .border{
@@ -161,6 +161,8 @@ footer{
   color: #f6ac00;
   text-align: center;
   font-size: 1.3em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
 }
 
 .contact-tag{
