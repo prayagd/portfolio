@@ -16,7 +16,8 @@ function App() {
         <Route exact path = "/Contact" component = {Contact}/>
       </Switch>
       <footer>
-        <p>Prayag Desale 2020</p>
+        <p>Prayag Desale @ 2020</p>
+        <p>Made with React</p>
       </footer>
     </div>
     </BrowserRouter>

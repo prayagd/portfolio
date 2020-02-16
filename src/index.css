@@ -7,6 +7,12 @@ body {
   padding: 0;
 }
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html{
   color: #494c4e;
 }
@@ -30,19 +36,33 @@ a{
   padding-top: 4em;
   padding-bottom: 4em;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 
+@media (max-width: 420px){
+  #navtags{
+    padding-top: 1em;
+  }
+  #navbar {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
 .nav-list:hover{
   border-bottom: 2px solid #3333ff;
 }
 
 .name-tag{
-  border: 5px solid #494c4e;
-  padding: 5px;
-  font-size: 2rem;
+  border: 3px solid #494c4e;
+  padding: 0.3em;
+  font-size: 2em;
+  max-width: 100%;
+  font-weight: normal;
+  display: inline-block;
+  height: auto;
 }
 
 .outside-container{
@@ -76,13 +96,17 @@ img{
   margin-bottom: 3em;
 }
 
+.space-down h3{
+  margin-bottom: 1em;
+}
+
 .intro{
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-.resume:hover{
-  border-bottom: 1px solid #3333ff;
+.resume{
+  color: #3333ff;
 }
 
 #intro{
@@ -171,4 +195,6 @@ footer{
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
